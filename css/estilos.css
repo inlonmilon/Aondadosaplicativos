@@ -1,0 +1,212 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+    body {
+        background-color: #CBDDD1;
+    }
+
+    .cabecalho {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .cabecalho::before {
+        content: '';
+        background-color: #DDDFDD;
+        height: 30px;
+        width: 300px;
+        z-index: -1;
+        display: flex;
+        margin: 35px auto 0 ;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        border-radius: 20px;
+    }
+    .rodaped{
+        margin-top: 200px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .rodape{
+        margin-top: 550px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    a {
+        padding: 10px;
+        color: #0D0D0D;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    .links a:hover {
+        background-color: #dbebe0;
+        border-radius: 30px;
+    }
+
+    #area_esquerda {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: 35px;
+        margin-top: 100px;
+        margin-left: 45px;
+        float: left;
+        width: 45%;
+        text-align: center;
+        background-color: #67706A;
+        border-radius: 10px;
+        font-size: larger;
+    }
+    .areatext{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        width: 50%;
+        margin-left: 150px;
+    }
+    .areatext2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        width: 70%;
+        margin-left: 40px;
+    }
+    .areatext3{
+        width: 80%;
+        margin-left: 25px;
+    }
+    #area_direita1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 100px;
+        margin-right: 45px;
+        float: right;
+        width: 40%;
+        text-align: center;
+        background-color: #67706A;
+        border-radius: 10px;
+        font-size: larger;
+    }
+    .primeira {
+        padding: 10px;
+        margin-top: 5px;
+        margin-right: 45px;
+        float: right;
+        width: 17%;
+        text-align: center;
+        background-color: #67706A;
+        border-radius: 10px;
+        font-size: larger;
+        height: 200px;
+    }
+    .segunda{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 5px;
+        margin-right: 60px;
+        float: right;
+        width: 17%;
+        text-align: center;
+        background-color: #67706A;
+        border-radius: 10px;
+        font-size: larger;
+        height: 200px;
+    }
+    h1,
+    h2 {
+        letter-spacing: 5px;
+    }
+
+    .redes {
+        padding-bottom: 25px;
+        text-align: right;
+    }
+    h3{
+        font-family: 'Cherish', cursive;
+        margin-right: 85%;
+        font-size: 30px;
+        margin-top: -60px;
+    }
+    .tiktok{
+        margin-top: 100px;
+        margin-left: 100px;
+        text-align: left;
+    }
+    .tiktext{
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -170px;
+        margin-left: 290px;
+        font-weight: bold;
+    }
+   .instagram{
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: left;
+   }
+   .youtube{
+    margin-top: 150px;
+    margin-left: 80px;
+    text-align: left;
+   }
+   .ifood{
+    margin-top: 150px;
+    margin-left: 80px;
+    text-align: left;
+   }
+   .saude{
+       margin-top: 150px;
+    margin-left: 70px;
+    text-align: left;
+   }
+   .arealateral{
+       background-color: #67706A;
+       padding: 10px;
+       border-radius: 10px;
+       margin-top: 60px;
+       margin-left: 60px;
+       float: left;
+       width: 50%;
+       text-align: center;
+   }
+   h4{
+        font-size: 24px;
+        background-color: #dddfdd25;
+        font-family: 'Montserrat', sans-serif;
+   }
+   .text_not{
+       font-family: 'Montserrat', sans-serif;
+       text-align: center;
+       font-weight: bold;
+       font-size: 20px;
+       color: rgb(0, 0, 0);
+   }
+   .imgesquerda{
+        margin-top: 150px;
+        margin-left: 80px;
+        text-align: left;  
+   }
+   .imgtext{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: -300px;
+    margin-left: 450px;
+    text-align: center;
+    width: 60%;
+   }
+   .img_cima{
+    background-color: #67706A;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-right: 60px;
+    float: right;
+    width: 35%;
+    text-align: center;
+   }
+   .expe{
+       margin-top: -30px;
+       margin-left: 450px;
+   }
